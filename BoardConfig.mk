@@ -34,3 +34,4 @@ TARGET_SCREEN_HEIGHT := 2880
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/Image.gz
 # Workaround for rsync error: could not make way for new symlink
 BOARD_ROOT_EXTRA_SYMLINKS :=
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/twrp.fstab
