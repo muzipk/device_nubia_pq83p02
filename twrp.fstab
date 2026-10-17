@@ -1,0 +1,6 @@
+system /dev/block/mapper/system ext4 defaults defaults
+vendor /dev/block/mapper/vendor ext4 defaults defaults
+product /dev/block/mapper/product ext4 defaults defaults
+boot /dev/block/by-name/boot emmc defaults defaults
+recovery /dev/block/by-name/recovery emmc defaults defaults
+data /dev/block/by-name/userdata f2fs defaults defaults
