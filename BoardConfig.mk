@@ -32,3 +32,5 @@ TW_THEME := landscape_hdpi
 TARGET_SCREEN_WIDTH := 1800
 TARGET_SCREEN_HEIGHT := 2880
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/Image.gz
+# Workaround for rsync error: could not make way for new symlink
+BOARD_ROOT_EXTRA_SYMLINKS :=
