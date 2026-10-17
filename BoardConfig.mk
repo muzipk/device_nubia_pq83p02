@@ -17,6 +17,16 @@ TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USES_MKE2FS := true
 AB_OTA_UPDATER := true
+AB_OTA_PARTITIONS += \
+    boot \
+    dtbo \
+    system \
+    system_ext \
+    product \
+    vendor \
+    vbmeta \
+    vbmeta_system
+    vendor_boot \
 TW_THEME := landscape_hdpi
 TARGET_SCREEN_WIDTH := 1800
 TARGET_SCREEN_HEIGHT := 2880
