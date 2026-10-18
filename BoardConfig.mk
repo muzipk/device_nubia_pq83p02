@@ -35,3 +35,5 @@ TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/Image.gz
 # Workaround for rsync error: could not make way for new symlink
 BOARD_ROOT_EXTRA_SYMLINKS :=
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/twrp.fstab
+# 关键：告诉系统这是 vendor_boot 机制，把资源移入 vendor_boot
+BOARD_MOVE_RECOVERY_RESOURCES_TO_VENDOR_BOOT := true
